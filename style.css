@@ -9,12 +9,14 @@ ul {
   list-style-type: none;
 }
 
-ul.ba {
-    list-style-type: none;
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
 }
 
+
 li {
-  /*display: inline;*/
+  display: inline;
   font-size: 30px;
   padding: 0px;
   margin: 0 20px;
