@@ -1,11 +1,12 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300;400;600&display=swap')
 
 
 ul {
   list-style: none;
   padding-left: 0;
-  padding-right: 0;
-  list-style-type: none;
+  /*padding-right: 0;*/
+  /*list-style-type: none;*/
 }
 
 .list-inline {
@@ -24,6 +25,7 @@ a {
   text-decoration: none;
   color: #0ddbe6;
   transition: 0.2s;
+  display: inline-block;
 }
 a:hover {
   color: #0e767b;
@@ -88,3 +90,11 @@ img {
   color: white;
 }
 
+.card {
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 650px;
+  margin: 20px auto;
+  text-align: center;
+}
