@@ -112,7 +112,7 @@ img {
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 2px 2px 3px rgba(0,0,0,.1);
-  max-width: 650px;
+/*   max-width: 650px; */
   margin: 20px auto;
   text-align: center;
   font-size: 17px;
