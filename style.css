@@ -72,7 +72,7 @@ p {
 }
 
 img {
-  width: 150px;
+/*   width: 150px; */
   height:150px;
   border-radius: 50%;
 }
@@ -112,7 +112,7 @@ img {
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 2px 2px 3px rgba(0,0,0,.1);
-  width: 650px;
+  max-width: 650px;
   margin: 20px auto;
   text-align: center;
   font-size: 17px;
